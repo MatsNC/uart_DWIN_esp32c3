@@ -1,0 +1,25 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.adapterTargetName": "esp32c3",
+    "idf.customExtraPaths": "c:\\Matias\\Espressif\\tools\\xtensa-esp32-elf\\esp-2021r2-patch3-8.4.0\\xtensa-esp32-elf\\bin;c:\\Matias\\Espressif\\tools\\xtensa-esp32s2-elf\\esp-2021r2-patch3-8.4.0\\xtensa-esp32s2-elf\\bin;c:\\Matias\\Espressif\\tools\\xtensa-esp32s3-elf\\esp-2021r2-patch3-8.4.0\\xtensa-esp32s3-elf\\bin;c:\\Matias\\Espressif\\tools\\riscv32-esp-elf\\esp-2021r2-patch3-8.4.0\\riscv32-esp-elf\\bin;c:\\Matias\\Espressif\\tools\\esp32ulp-elf\\2.28.51-esp-20191205\\esp32ulp-elf-binutils\\bin;c:\\Matias\\Espressif\\tools\\esp32s2ulp-elf\\2.28.51-esp-20191205\\esp32s2ulp-elf-binutils\\bin;c:\\Matias\\Espressif\\tools\\cmake\\3.20.3\\bin;c:\\Matias\\Espressif\\tools\\openocd-esp32\\v0.11.0-esp32-20211220\\openocd-esp32\\bin;c:\\Matias\\Espressif\\tools\\ninja\\1.10.2;c:\\Matias\\Espressif\\tools\\idf-exe\\1.0.3;c:\\Matias\\Espressif\\tools\\ccache\\4.3\\ccache-4.3-windows-64;c:\\Matias\\Espressif\\tools\\dfu-util\\0.9\\dfu-util-0.9-win64",
+    "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"c:\\\\Matias\\\\Espressif\\\\tools\\\\openocd-esp32\\\\v0.11.0-esp32-20211220/openocd-esp32/share/openocd/scripts\",\"IDF_CCACHE_ENABLE\":\"1\"}",
+    "idf.espIdfPathWin": "C:\\Users\\ADMIN\\esp\\esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-builtin.cfg"
+    ],
+    "idf.portWin": "COM31",
+    "idf.pythonBinPathWin": "c:\\Matias\\Espressif\\python_env\\idf4.4_py3.8_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "c:\\Matias\\Espressif",
+    "files.associations": {
+        "gpio.h": "c",
+        "string.h": "c",
+        "sdkconfig.h": "c",
+        "task.h": "c",
+        "*.ipp": "c",
+        "system_error": "c",
+        "uart.h": "c",
+        "freertos.h": "c",
+        "esp_log.h": "c"
+    },
+    "idf.flashType": "UART"
+}

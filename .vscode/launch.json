@@ -1,0 +1,41 @@
+{
+
+  "version": "0.2.0",
+
+  "configurations": [
+
+    {
+
+      "name": "ESP32 OpenoCD",
+
+      "type": "cppdbg",
+
+      "request": "launch",
+
+      "cwd": "${workspaceFolder}/build",
+
+      "program": "${workspaceRoot}/build/global_project.elf",
+
+      "miDebuggerPath": "C:/Espressif/tools/riscv32-esp-elf/esp-2021r2-patch2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-gdb.exe",
+
+      "setupCommands": [
+
+        { "text": "target remote :3333"},
+
+        { "text": "set remote hardware-watchpoint-limit 2"},
+
+        { "text": "mon reset halt"},
+
+        { "text": "flushregs"},
+
+        { "text": "thb app_main"}
+
+      ]      
+
+
+
+    }
+
+  ]
+
+}
