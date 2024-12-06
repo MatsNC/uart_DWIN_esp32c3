@@ -11,7 +11,7 @@
     "idf.openOcdConfigs": [
         "board/esp32c3-bridge.cfg"
     ],
-    "idf.portWin": "COM19",
+    "idf.portWin": "COM35",
     "idf.pythonBinPathWin": "c:\\Matias\\Espressif\\python_env\\idf5.1_py3.11_env\\Scripts\\python.exe",
     "idf.toolsPathWin": "c:\\Matias\\Espressif",
     "files.associations": {
@@ -44,7 +44,8 @@
         "outputs.h": "c",
         "system_error": "c",
         "sdkconfig.h": "c",
-        "uart.h": "c"
+        "uart.h": "c",
+        "esp_sleep.h": "c"
     },
     "idf.flashType": "UART",
     "idf.gitPathWin": "c:\\Matias\\Espressif\\tools\\idf-git\\2.30.1\\cmd\\git.exe"
